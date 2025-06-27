@@ -41,23 +41,21 @@ const HomePage = () => {
             From city lights to mountain sights<br />ride with us
           </p>
           <div className="mt-4 d-flex flex-wrap gap-3">
-           <Button
-          variant="light"
-          className="rounded-pill btn-lg px-4 py-2 fw-semibold text-dark"
-          href="#Explore"
-          style={{padding:'10px',width:'160px'}}
-        >
-          Explore
-        </Button>
+          <Link
+            to="#Explore"
+            className="btn btn-light rounded-pill btn-lg px-4 py-2 fw-semibold text-dark"
+            style={{ padding: '10px', width: '160px' }}
+          >
+            Explore
+          </Link>
 
-        <Button
-          variant="warning"
-          className="rounded-pill btn-lg px-4 py-2 fw-semibold text-dark"
-          href="/Bookticket"
-          style={{width:'160px'}}
-        >
-          Book Ride!
-        </Button>
+          <Link
+            to="/Bookticket"
+            className="btn btn-warning rounded-pill btn-lg px-4 py-2 fw-semibold text-dark"
+            style={{ width: '160px' }}
+          >
+            Book Ride!
+          </Link>
 
           </div>
         </div>
