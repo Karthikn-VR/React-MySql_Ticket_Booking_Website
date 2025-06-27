@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 export default function App() {
 
   return(
-    <BrowserRouter >
+    <BrowserRouter basename="/react-mysql-bus_booking_website/">
     <Routes>
       <Route path='/' element={<Indexpage />}></Route>
       <Route path='/Bookticket' element={<BookTicket />}></Route>
