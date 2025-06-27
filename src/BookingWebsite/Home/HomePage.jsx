@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
 import Home from '../Images/Home.png'
+import { Link } from 'react-router-dom';
 import logo from '../Images/RIDEZY.png';
 import HomeText from './HomeText';
 import NavBar from './NavBar';
@@ -48,14 +49,13 @@ const HomePage = () => {
           Explore
         </Button>
 
-        <Button
-          variant="warning"
-          className="rounded-pill btn-lg px-4 py-2 fw-semibold text-dark"
-          href="/Bookticket"
-          style={{width:'160px'}}
-        >
-          Book Ride!
-        </Button>
+        <Link
+        to="/Bookticket"
+        className="rounded-pill btn btn-warning btn-lg px-4 py-2 fw-semibold text-dark"
+        style={{ width: '160px' }}
+      >
+        Book Ride!
+      </Link>
 
           </div>
         </div>
