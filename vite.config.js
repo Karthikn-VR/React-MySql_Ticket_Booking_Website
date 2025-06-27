@@ -6,3 +6,4 @@ export default defineConfig({
   plugins: [react()],
     base: '/React-MySql_Ticket_Booking_Website/',
 })
+//base: '/React-MySql_Ticket_Booking_Website/',
