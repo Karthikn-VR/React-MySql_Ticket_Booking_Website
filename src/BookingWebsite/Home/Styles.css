@@ -1,0 +1,15 @@
+.blur-text {
+  font-size: 68px;       
+  font-weight: bold;     
+  text-align:right;    
+  color: transparent;          
+  margin-bottom: 2rem;  
+  left: 50px; 
+  width: 100%;           
+  display: flex;
+  position:absolute;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  -webkit-text-stroke: 2px rgb(43, 41, 41);
+}
