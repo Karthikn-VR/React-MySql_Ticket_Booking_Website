@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Home from '../Images/Home.png'
 import logo from '../Images/RIDEZY.png';
 import HomeText from './HomeText';
