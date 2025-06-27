@@ -1,12 +1,87 @@
-# React + Vite
+# 🚌 React + MySQL Bus Booking Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **Bus Booking Web App** built using **React**, **Node.js**, and **MySQL**, with modern UI effects, smooth animations, and a real-time ticketing system.
 
-Currently, two official plugins are available:
+> 🚀 Hosted Frontend: [GitHub Pages](https://karthikn-vr.github.io/React-MySQL-Bus_Booking_Website/)  
+> 🛠 Backend: Run `server.js` locally (Node + MySQL)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **MySQL Integration** – Fully connected backend with `GET`, `POST`, and `DELETE` operations
+- 🏠 **Animated Landing Page** – Includes slide-in text, animated headings, and stacked images (with shuffle effects)
+- 🎨 **Modern UI/UX** – Built with `React-Bootstrap`, includes:
+  - Glassmorphism UI on booking forms
+  - Stylish contact form
+  - Focused input effects
+- 📋 **Book Ticket Page** – Allows users to book rides with form validation
+- 🎫 **Show Tickets Page** – Displays all booked tickets from MySQL
+- 💡 **Framer Motion** – Smooth animations for text, transitions, and components
+- 📦 **Reactbits.dev Components** – Includes focus text, slide-in effects, stacked images and more
+
+---
+
+## 🛠 Tech Stack
+
+| Frontend        | Backend       | Styling         | Animation      |
+|----------------|---------------|-----------------|----------------|
+| React.js        | Node.js (`server.js`) | Bootstrap 5 / React-Bootstrap | Framer Motion |
+| React Router    | Express.js    | Bootstrap Icons | reactbits.dev |
+| GitHub Pages (for frontend) | MySQL        | CSS Glassmorphism | Vite |
+
+---
+
+## 🖥 How to Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Karthikn-VR/React-MySQL-Bus_Booking_Website.git
+cd React-MySQL-Bus_Booking_Website
+````
+
+### 2. Install Frontend Dependencies
+
+```bash
+npm install
+```
+
+### 3. Install Backend Dependencies & Run Server
+
+```bash
+# In the root folder, if server.js exists here:
+npm install express mysql cors
+node server.js
+```
+
+> ⚠️ Ensure MySQL server is running and credentials in `server.js` are correctly set.
+
+---
+
+## 🌐 Deployments
+
+* **Frontend** is deployed on **GitHub Pages**:
+  [🔗 View Live](https://karthikn-vr.github.io/React-MySQL-Bus_Booking_Website/)
+
+* **Backend** must be run locally via `node server.js` for full functionality (e.g., booking, deleting, listing tickets).
+
+---
+
+## 🤝 Contribution
+
+Feel free to fork the project and contribute! Pull requests are always welcome.
+
+---
+
+## 📧 Contact
+
+Built by **[Karthikn-VR](https://github.com/Karthikn-VR)**
+For suggestions or feedback: [karthik@example.com](mailto:karthik@example.com) *(replace with real email)*
+
+---
+
+## 📄 License
+
+MIT License – use it freely, just credit the creator.
+
