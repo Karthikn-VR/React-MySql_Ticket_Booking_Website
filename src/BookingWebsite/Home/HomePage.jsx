@@ -48,14 +48,13 @@ const HomePage = () => {
           Explore
         </Button>
 
-        <Button
-          variant="warning"
-          className="rounded-pill btn-lg px-4 py-2 fw-semibold text-dark"
-          href="/Bookticket"
-          style={{width:'160px'}}
+        <Link
+          to="/Bookticket"
+          className="rounded-pill btn btn-warning btn-lg px-4 py-2 fw-semibold text-dark"
+          style={{ width: '160px' }}
         >
           Book Ride!
-        </Button>
+        </Link>
 
           </div>
         </div>
